@@ -1,14 +1,14 @@
 {
   "latest": {
-    "version": "1.0.0-isic2019",
+    "version": "2.0.0",
     "model_arch": "efficientnet_b1",
-    "sha256": "0adb88b55ad6bc665dc0cb0103761adbbd005d7529e25cbb62c9f251e1588df0",
+    "sha256": "81bc8c149ef07679fddefabb82a7cceb897eaf3faece5f989fcad88c97463fc7",
     "min_ios": "15.0",
     "min_app_version": "1.0.0",
-    "download_url": "https://github.com/jeromehouix/dermasign-models/releases/download/v1.0.0-isic2019/DermClassifier_v1.mlpackage.zip",
-    "size_bytes": 12137886,
-    "released_at": "2026-05-20T13:29:00.786321+00:00",
-    "package_name": "DermClassifier_v1.mlpackage",
+    "download_url": "https://github.com/jeromehouix/dermasign-models/releases/download/v2.0.0/DermClassifier_v2.mlpackage.zip",
+    "size_bytes": 12137514,
+    "released_at": "2026-05-20T17:45:09.642965+00:00",
+    "package_name": "DermClassifier_v2.mlpackage",
     "preset": "isic2019_b1",
     "classes": [
       "ACK",
@@ -17,6 +17,17 @@
       "NEV",
       "SCC",
       "SEK"
+    ],
+    "classes_target": [
+      "akiec",
+      "bcc",
+      "bkl",
+      "df",
+      "mel",
+      "nv",
+      "scc",
+      "vasc",
+      "unk"
     ]
   }
 }
