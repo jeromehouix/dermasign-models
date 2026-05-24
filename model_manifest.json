@@ -1,16 +1,16 @@
 {
   "latest": {
-    "version": "2.1.0",
-    "sha256": "1cebc246b387c1d13abb2d2680a155fcba03a6e108c801b81dd652f0fc8463e1",
-    "size_bytes": 170912326,
-    "download_url": "https://github.com/jeromehouix/dermasign-models/releases/download/v2.1.0/DermEnsemble_v2.1.0.zip",
-    "package_name": "DermEnsemble_v2.1.0.zip",
+    "version": "2.2.0",
+    "sha256": "3050e7def9f85423357e2dd2538dbcffbcd77c8f30dcde42fb4bffeb262975e0",
+    "size_bytes": 170912740,
+    "download_url": "https://github.com/jeromehouix/dermasign-models/releases/download/v2.2.0/DermEnsemble_v2.2.0.zip",
+    "package_name": "DermEnsemble_v2.2.0.zip",
     "min_ios": "15.0",
     "min_app_version": "1.1.0",
     "ensemble": true,
     "models": [
       {
-        "name": "DermDINOv2_v2.1.0",
+        "name": "DermDINOv2_v2.2.0",
         "weight": 0.55,
         "classes": [
           "akiec",
@@ -25,7 +25,7 @@
         ]
       },
       {
-        "name": "DermEfficientNet_v2.1.0",
+        "name": "DermEfficientNet_v2.2.0",
         "weight": 0.45,
         "classes": [
           "akiec",
@@ -37,6 +37,6 @@
         ]
       }
     ],
-    "released_at": "2026-05-24T08:45:22.335052+00:00"
+    "released_at": "2026-05-25T00:51:00.000000+00:00"
   }
 }
