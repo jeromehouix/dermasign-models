@@ -1,33 +1,42 @@
 {
   "latest": {
-    "version": "2.0.0",
-    "model_arch": "efficientnet_b1",
-    "sha256": "81bc8c149ef07679fddefabb82a7cceb897eaf3faece5f989fcad88c97463fc7",
+    "version": "2.1.0",
+    "sha256": "1cebc246b387c1d13abb2d2680a155fcba03a6e108c801b81dd652f0fc8463e1",
+    "size_bytes": 170912326,
+    "download_url": "https://github.com/jeromehouix/dermasign-models/releases/download/v2.1.0/DermEnsemble_v2.1.0.zip",
+    "package_name": "DermEnsemble_v2.1.0.zip",
     "min_ios": "15.0",
-    "min_app_version": "1.0.0",
-    "download_url": "https://github.com/jeromehouix/dermasign-models/releases/download/v2.0.0/DermClassifier_v2.mlpackage.zip",
-    "size_bytes": 12137514,
-    "released_at": "2026-05-20T17:45:09.642965+00:00",
-    "package_name": "DermClassifier_v2.mlpackage",
-    "preset": "isic2019_b1",
-    "classes": [
-      "ACK",
-      "BCC",
-      "MEL",
-      "NEV",
-      "SCC",
-      "SEK"
+    "min_app_version": "1.1.0",
+    "ensemble": true,
+    "models": [
+      {
+        "name": "DermDINOv2_v2.1.0",
+        "weight": 0.55,
+        "classes": [
+          "akiec",
+          "bcc",
+          "bkl",
+          "df",
+          "mel",
+          "nv",
+          "scc",
+          "vasc",
+          "unk"
+        ]
+      },
+      {
+        "name": "DermEfficientNet_v2.1.0",
+        "weight": 0.45,
+        "classes": [
+          "akiec",
+          "bcc",
+          "mel",
+          "nev",
+          "scc",
+          "sek"
+        ]
+      }
     ],
-    "classes_target": [
-      "akiec",
-      "bcc",
-      "bkl",
-      "df",
-      "mel",
-      "nv",
-      "scc",
-      "vasc",
-      "unk"
-    ]
+    "released_at": "2026-05-24T08:45:22.335052+00:00"
   }
 }
