@@ -1,8 +1,8 @@
 {
   "latest": {
     "version": "2.5.0",
-    "sha256": "c1e5741ed34b6e5c8a7945be75a606cebea878f7fd5c4e6e9213a76f615a9087",
-    "size_bytes": 170915525,
+    "sha256": "cc901240ebd92186cec4d0d5da14fd2a4083e2f8972990f62ef53158f6f17065",
+    "size_bytes": 170915337,
     "download_url": "https://github.com/jeromehouix/dermasign-models/releases/download/v2.5.0/DermEnsemble_v2.5.0.zip",
     "package_name": "DermEnsemble_v2.5.0.zip",
     "min_ios": "15.0",
