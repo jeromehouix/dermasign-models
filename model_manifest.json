@@ -1,10 +1,10 @@
 {
   "latest": {
-    "version": "2.4.0",
-    "sha256": "56e707df8a0ed0e9c7285ed5721e5f3e2e67c90a25273f427c829a1368e8e37e",
-    "size_bytes": 170915004,
-    "download_url": "https://github.com/jeromehouix/dermasign-models/releases/download/v2.4.0/DermEnsemble_v2.4.0.zip",
-    "package_name": "DermEnsemble_v2.4.0.zip",
+    "version": "2.5.0",
+    "sha256": "c1e5741ed34b6e5c8a7945be75a606cebea878f7fd5c4e6e9213a76f615a9087",
+    "size_bytes": 170915525,
+    "download_url": "https://github.com/jeromehouix/dermasign-models/releases/download/v2.5.0/DermEnsemble_v2.5.0.zip",
+    "package_name": "DermEnsemble_v2.5.0.zip",
     "min_ios": "15.0",
     "min_app_version": "1.1.0",
     "ensemble": true,
@@ -38,6 +38,6 @@
         ]
       }
     ],
-    "released_at": "2026-05-26T12:23:21.294710+00:00"
+    "released_at": "2026-05-27T08:39:35.971827+00:00"
   }
 }
